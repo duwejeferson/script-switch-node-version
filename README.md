@@ -7,7 +7,7 @@ The script can be used in 2 scenarios, at first, more uses may be found.
 ```jsonc
 {
   "type": "shell",
-  "command": "bash", // the orinal command is replaced by a new bash
+  "command": "bash", // the original command is replaced by a new bash
   "args": [
     "../scripts/switchNodeVersion.sh", // the script gets executed
     "node ../auth/dist/apps/backend/main.js" // the original command must be used a parameter to the switch script
